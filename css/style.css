@@ -1,0 +1,47 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+.container{
+	background-color: #ccc;
+	margin: 0;
+	padding: 1em;
+	width: 100%;
+	text-align: center;
+}
+.titulo {
+	font-size: 1.2em;
+	margin:0.5em;
+	text-align: center;
+}
+
+.lista{
+	list-style: none;
+	margin: 0 ;
+	padding:0;
+}
+
+.reglon{
+	text-align: left;
+	margin: 1.2em 0;
+}
+
+.reglon p {
+	display: inline-block;
+	margin:0;
+}
+.reglon input{
+	float: right;
+}
+
+
+.elemento {
+	margin-bottom: .5em
+}
+button{
+	width: 13em;
+	padding: .5em 0;
+	border: 1px solid white;
+	background-color: blue;
+	color: white;
+}
