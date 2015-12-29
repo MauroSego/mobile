@@ -5,11 +5,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>QAP</title>
 	<link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="js/codigo.js"></script>
 </head>
 <body>
 	<div class="container">
 		<h2>Informar QAP</h2>
-		<form action="" >
+		<form action="" id="form_qap">
 			<ul class="lista">
 				<li class="reglon">
 					<p>Ingrese QAP:</p>
@@ -22,13 +24,16 @@
 						<option value="Refrigerio">Refrigerio</option>
 					</select>
 			</ul>
-			<input type="submit" value="Enviar">
-
+			<!--<input type="submit" value="Enviar" class="btn">-->
+			<button type="submit">Enviar</button>
+			<a href="index.html">
+				<button>Volver</button>	
+			</a>
 		</form>	
-      <a href="index.html">
-        <button>Volver</button> 
-      </a>
 	</div>
+  <div id="resultado">
+    
+  </div>
 	
 </body>
 </html>
