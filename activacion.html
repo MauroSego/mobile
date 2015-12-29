@@ -7,29 +7,33 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<div class="container">
-		<h2 class="titulo">Ingrese MAC o Serial según corresponda</h2>
-		<form action="" mnethod="post">
-			
-				<input type="radio" name="equipo" value="deco">Decodificador
-        <input type="radio" name="equipo" value="modem">CableModem
-	
-        <ul class="lista">
-          <li>
-            <p>Ingresar serial o mac</p>
-            <input type="text" text="">
-          </li>
-        </ul> 
-      
-		</form>
-    <button type="submit">Enviar</button>
-    <a href="index.html">
-      <button>Volver</button> 
-    </a>
+  <div class="layout">
+  	<div class="container">
+  		<h2 class="titulo">Ingrese MAC o Serial según corresponda</h2>
+  		<form action="" mnethod="post">
+  			
+  				<input type="radio" name="equipo" value="deco">Decodificador
+          <input type="radio" name="equipo" value="modem">CableModem
+          <div class="campo_serial">
+            <p>Ingresar serial o mac:</p>
+            <input type="text" text="">          
+          </div>
 
-	</div>
-  <div id="resultado">
-    
+          
+        
+  		</form>
+      <div class="botonera">
+        <button type="submit">Enviar</button>
+        <a href="index.html">
+          <button>Volver</button> 
+        </a>  
+      </div>
+      
+
+  	</div>
+    <div id="resultado">
+      
+    </div>
   </div>
 </body>
 </html>

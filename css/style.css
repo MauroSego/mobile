@@ -2,10 +2,13 @@ body{
 	padding: 0;
 	margin: 0;
 }
+.layout{
+    background-color: #ccc;
+    margin: 0;
+    padding: 1%;
+}
 .container{
-	background-color: #ccc;
-	margin: 0;
-	padding: 2%;
+
 	width: 100%;
 	height: 100%;
 	text-align: center;
@@ -18,29 +21,30 @@ body{
 
 .lista{
 	list-style: none;
-	margin: 0 ;
+	margin: 0 auto;
 	padding:0;
+    width: 20%;
 }
 
 .reglon{
 	text-align: left;
-	margin: 0.5em 0;
+    margin: 0;
+
 }
 
-.reglon p {
-	display: inline-block;
-	margin:0;
-}
-.reglon input{
-	float: right;
-}
 
+.campo_serial p, .reglon p {
+    display: inline-block;
+    width: 2.8em;
+    margin: 3%;
+}
 
 .elemento {
 	margin-bottom: .5em
 }
 button{
 	width: 13em;
+    margin-bottom: 0.3em;
 	padding: .2em 0;
 	border: 1px solid white;
 	background-color: blue;
