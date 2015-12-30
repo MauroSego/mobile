@@ -1,9 +1,10 @@
 body{
 	padding: 0;
 	margin: 0;
+    font-family: "Lato"
 }
 .layout{
-    background-color: #ccc;
+    background-color: #fbfbfb;
     margin: 0;
     padding: 1%;
     width:100%;
@@ -16,6 +17,9 @@ body{
     height: 100%;
     text-align: center;
     width: 100%;
+}
+.elemento {
+    margin-bottom: .5em
 }
 .titulo {
 	font-size: 1.2em;
@@ -30,7 +34,7 @@ body{
 }
 .lista_niv{
     list-style: none;
-    margin: 0 auto;
+    margin: 0.5em auto;
     width: 100%;
 }
 .reglon{
@@ -47,13 +51,15 @@ body{
     display: inline-block;
     margin: 3%;
 }
-
-.elemento {
-	margin-bottom: .5em
+.selector{
+    width:8.5em;
+    color: #aaa;
 }
+
 button{
-    background-color: blue;
-    border: 1px solid white;
+    background-color: #F18244;
+    border: 2px solid #E06F2F;
+    border-radius: 4px;
     color: white;
     display: inline-block;
     margin-bottom: 0.3em;
